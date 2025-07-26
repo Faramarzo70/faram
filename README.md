@@ -34,7 +34,7 @@ peripherals (touch controller, TF card, RGB LED, CDS light sensor and speaker).
 | `rk3568_8048S070C`                     | 7.0″ 800×480              | ST7262 16‑bit parallel   | GT911 (I2C)          | —                                |
 | `rk3568_8048S070R`                     | 7.0″ 800×480              | ST7262 16‑bit parallel   | XPT2046 (SPI)        | TF card                           |
 
-All boards assume **Wi‑Fi 6/Bluetooth 5.2 connectivity** through the Quectel
+Allrk3568_80485070C assume **Wi‑Fi 6/Bluetooth 5.2 connectivity** through the Quectel
 FCS866R module attached to the RK3568’s SDIO host.  Boards marked with `C` use a
 capacitive touch controller (either GT911 or CST816S), while those marked with `R`
 use the XPT2046 resistive controller.  Variants with a trailing `C`/`R` suffix are
