@@ -1,0 +1,19 @@
+{
+  "build": {
+    "core": "rk3568",
+    "f_cpu": "2000000000L",
+    "extra_flags": [
+      "'-D DISPLAY_WIDTH=480'",
+      "'-D DISPLAY_HEIGHT=272'",
+      "'-D LVGL_BUFFER_PIXELS=(DISPLAY_WIDTH*DISPLAY_HEIGHT/4)'",
+      "'-D BOARD_HAS_WIFI6'",
+      "'-D BOARD_HAS_BT52'",
+      "'-D WIFI_INTERFACE_SDIO3'",
+      "'-D RK3568_LVDS_PANEL'"
+    ]
+  },
+  "frameworks": ["linux"],
+  "connectivity": ["wifi", "bluetooth"],
+  "name": "rk3568_fcs866r_lcd480x272",
+  "vendor": "custom"
+}
