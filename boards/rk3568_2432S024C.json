@@ -1,0 +1,39 @@
+{
+  "build": {
+    "core": "rk3568",
+    "extra_flags": [
+      "'-D RK3568_2432S024C'",
+      "'-D DISPLAY_WIDTH=240'",
+      "'-D DISPLAY_HEIGHT=320'",
+      "'-D LVGL_BUFFER_PIXELS=(DISPLAY_WIDTH*DISPLAY_HEIGHT)'",
+      "'-D DISPLAY_ILI9341_SPI'",
+      "'-D DISPLAY_SOFTWARE_ROTATION'",
+      "'-D DISPLAY_SWAP_XY=false'",
+      "'-D DISPLAY_MIRROR_X=false'",
+      "'-D DISPLAY_MIRROR_Y=false'",
+      "'-D WIFI_MODULE_FCS866R'",
+      "'-D WIFI_SDIO_HOST=SDIO1'",
+      "'-D WIFI_SDIO_CLOCK_HZ=100000000'",
+      "'-D WIFI_SDIO_VDD_IO=1.8'",
+      "'-D BOARD_HAS_TOUCH'",
+      "'-D CONFIG_ESP_LCD_TOUCH_MAX_POINTS=1'",
+      "'-D CONFIG_ESP_LCD_TOUCH_MAX_BUTTONS=0'",
+      "'-D TOUCH_CST816S_I2C'",
+      "'-D BOARD_HAS_TF'",
+      "'-D BOARD_HAS_RGB_LED'",
+      "'-D BOARD_HAS_CDS'",
+      "'-D BOARD_HAS_SPEAKER'"
+    ],
+    "f_cpu": "2000000000L",
+    "mcu": "rk3568"
+  },
+  "connectivity": [
+    "wifi",
+    "bluetooth"
+  ],
+  "frameworks": [
+    "linux"
+  ],
+  "name": "rk3568_2432S024C",
+  "vendor": "Sunton-RK"
+}
